@@ -135,7 +135,7 @@ Apply the configuration. Respond to the confirmation prompt with a yes.
 terraform apply
 ```
 
-## Configuration
+### Configuration
 
 Update the ami of your instance. Change the AMI ID under the aws_instance.app_server provider block in main.tf by replacing the current AMI ID with a new one.
 ```bash
