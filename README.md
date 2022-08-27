@@ -139,10 +139,11 @@ terraform apply
 
 Update the ami of your instance. Change the AMI ID under the aws_instance.app_server provider block in main.tf by replacing the current AMI ID with a new one.
 ```bash
-Tip: The below snippet is formatted as a diff to give you context about which parts of your configuration you need to change. Replace the content displayed in red with the content displayed in green, leaving out the leading + and - signs.
+Tip: The below snippet is formatted as a diff to give you context about which parts of your configuration you need to change. Replace the content displayed in - with the content displayed in +, leaving out the leading + and - signs.
 ```
 ```bash
  resource "aws_instance" "app_server" {
+
 -  ami           = "ami-830c94e3"
 +  ami           = "ami-08d70e59c07c61a3a"
    instance_type = "t2.micro"
