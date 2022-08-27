@@ -76,12 +76,12 @@ resource "aws_instance" "app_server" {
 }
 ```
 
-# Initialize the directory
+### Initialize the directory
 
 ```bash
   terraform init
 ```
-# Format and validate the configuration
+### Format and validate the configuration
 
 ```bash
   terraform fmt
@@ -89,7 +89,7 @@ resource "aws_instance" "app_server" {
 ```bash
   terraform validate
 ```
-# Create infrastructure
+### Create infrastructure
 
 ```bash
   terraform apply
@@ -135,7 +135,7 @@ Apply the configuration. Respond to the confirmation prompt with a yes.
 terraform apply
 ```
 
-# Configuration
+## Configuration
 
 Update the ami of your instance. Change the AMI ID under the aws_instance.app_server provider block in main.tf by replacing the current AMI ID with a new one.
 ```bash
@@ -152,7 +152,7 @@ Tip: The below snippet is formatted as a diff to give you context about which pa
  ```bash
  terraform apply
  ```
- # Destroy Infrastructure
+ ### Destroy Infrastructure
 
 ```bash
 terraform destroy
