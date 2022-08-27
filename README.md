@@ -1,7 +1,7 @@
 # AWS Terraform
 
 
-# Managing AWS Infrastructure using Terraform
+## Managing AWS Infrastructure using Terraform
 
 The purpose of this project is to create an entire AWS infrastructure using Terraform. We will create VPC, subnets, network interfaces, and AMI's using AWS.
 
